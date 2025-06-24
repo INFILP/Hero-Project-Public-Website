@@ -17,17 +17,17 @@ const geistMono = Geist_Mono({
 const myFont = localFont({
   src: [
     {
-      path: "../../public/fonts/SFPRODISPLAYREGULAR.otf",
+      path: "../../public/font/SFPRODISPLAYREGULAR.otf",
       weight: "400",
       style: "normal",
     },
     {
-      path: "../../public/fonts/SFPRODISPLAYMEDIUM.otf",
+      path: "../../public/font/SFPRODISPLAYMEDIUM.otf",
       weight: "500",
       style: "normal",
     },
     {
-      path: "../../public/fonts/SFPRODISPLAYBOLD.otf",
+      path: "../../public/font/SFPRODISPLAYBOLD.otf",
       weight: "700",
       style: "normal",
     },
