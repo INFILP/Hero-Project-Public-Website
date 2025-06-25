@@ -97,7 +97,7 @@ const Form = () => {
             <button
               type="submit"
               disabled={isLoading}
-              className="w-full bg-gradient-custom hover:opacity-90 inner-shadow-blue text-white font-semibold py-2.5 rounded-full transition duration-200"
+              className="w-full bg-gradient-custom hover:opacity-90 inner-shadow-blue text-white font-semibold py-3 rounded-full transition duration-200 cursor-pointer"
             >
               {isLoading ? "Sending..." : "Submit"}
             </button>

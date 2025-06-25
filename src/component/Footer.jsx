@@ -55,12 +55,18 @@ const Footer = () => {
           <h3 className="font-sfpro-bold mb-3">Quick Links</h3>
           <ul className="space-y-2 text-sm">
             <li>
-              <Link href="#" className="hover:text-[#58B2BE] transition">
+              <Link
+                href="/terms&conditions"
+                className="hover:text-[#58B2BE] transition"
+              >
                 Terms & Conditions
               </Link>
             </li>
             <li>
-              <Link href="#" className="hover:text-[#58B2BE] transition">
+              <Link
+                href="/privacy-policy"
+                className="hover:text-[#58B2BE] transition"
+              >
                 Privacy Policy
               </Link>
             </li>

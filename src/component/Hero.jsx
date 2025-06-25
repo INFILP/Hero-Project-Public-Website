@@ -25,7 +25,7 @@ const Hero = () => {
             </p>
             <Link
               href="/"
-              className="bg-gradient-custom text-[12px] sm:text-sm lg:text-[16px] text-white px-3 sm:px-6 py-1.5 sm:py-3 rounded-full hover:opacity-90 inner-shadow-blue"
+              className="bg-gradient-custom text-[12px] sm:text-sm lg:text-[16px] text-white px-4 sm:px-6 py-2.5 sm:py-3 rounded-full hover:opacity-90 inner-shadow-blue"
             >
               Get Started
             </Link>
