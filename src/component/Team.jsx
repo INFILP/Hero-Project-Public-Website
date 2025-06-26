@@ -31,12 +31,12 @@ const Team = () => {
   ];
   return (
     <div className="bg-[#EDF6F7] rounded-2xl flex flex-col lg:flex-row justify-between mb-7">
-      <div className="order-2 lg:order-1 relative w-full lg:w-1/2 h-[25rem] sm:h-auto lg:h-[30rem]">
+      <div className="order-2 lg:order-1 relative w-full lg:w-1/2 h-[22.5rem] sm:h-auto lg:h-[30rem]">
         <h2 className="text-4xl font-sfpro-medium text-secondary p-6 lg:text-left text-center lg:block hidden">
           For Every <span className="text-prime"> Team </span> Behind <br /> a{" "}
           <span className="text-prime"> Hero </span>
         </h2>
-        <div className="relative w-full h-[30.5rem] mt-6">
+        <div className="relative w-full h-[30.5rem] lg:mt-[9.5rem] xl:mt-24">
           <Image
             src="/images/team.png"
             alt="team"
@@ -46,7 +46,7 @@ const Team = () => {
         </div>
       </div>
       <div className="order-1 lg:order-2 flex flex-col flex-wrap justify-center gap-6 p-4 sm:p-8">
-        <h2 className="text-2xl font-sfpro-medium text-secondary p-6 text-center block lg:hidden">
+        <h2 className="text-3xl sm:text-4xl font-sfpro-medium text-secondary p-6 text-center block lg:hidden">
           For Every <span className="text-prime"> Team </span> Behind <br /> a{" "}
           <span className="text-prime"> Hero </span>
         </h2>

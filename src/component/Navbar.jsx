@@ -5,7 +5,7 @@ import React from "react";
 const Navbar = () => {
   return (
     <div className="w-full">
-      <nav className="flex items-center justify-between px-4 py-3 bg-transparent lg:max-w-4xl xl:max-w-7xl mx-auto">
+      <nav className="flex items-center justify-between px-4 py-3 bg-transparent w-full lg:max-w-[61rem] xl:max-w-[1270px] mx-auto">
         <Link
           href="/"
           className="flex items-center space-x-2 w-24 md:w-32 lg:w-56 relative h-10 md:h-16 lg:h-20"
@@ -33,7 +33,7 @@ const Navbar = () => {
           </Link>
           <Link
             href="/"
-            className="bg-gradient-custom text-[12px] sm:text-sm lg:text-[16px] text-white px-3 sm:px-4 py-1.5 sm:py-2 rounded-full hover:opacity-90 inner-shadow-blue"
+            className="bg-gradient-custom text-[12px] sm:text-sm lg:text-[16px] text-white inline-flex w-[122px] h-[37px] md:w-[152px] md:h-[45px] items-center justify-center rounded-full hover:opacity-90 inner-shadow-blue font-sfpro-regular"
           >
             Download App
           </Link>
