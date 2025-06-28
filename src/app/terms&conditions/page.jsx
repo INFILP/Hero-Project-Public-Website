@@ -1,4 +1,4 @@
-import TermsAndConditions from "@/component/TermsAndConditions";
+import TermsAndConditions from "../../component/TermsAndConditions";
 import React from "react";
 
 const ToC = () => {
