@@ -28,7 +28,7 @@ const PricingPlan = () => {
       title: "Project Leader",
       subtitle:
         "Lead with clarity, manage care projects, and view full team summaries.",
-      price: "$12.99",
+      price: "$5.99",
       priceSub: "/ monthly",
       features: [
         "Create and manage projects",
