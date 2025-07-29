@@ -18,8 +18,8 @@ const Footer = () => {
               height={32}
             />
           </div>
-          <p className="text-xl mb-2">+1 (7635) 547-12-97</p>
-          <p className="text-base">support@heroproject.com</p>
+          <p className="text-xl mb-2"> +1 (213) 419-0579</p>
+          <p className="text-base"> support@teamheroproject.com</p>
         </div>
 
         {/* Social Links */}

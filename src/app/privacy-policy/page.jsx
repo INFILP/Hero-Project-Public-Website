@@ -347,10 +347,7 @@ export default function PrivacyPolicy() {
           Like many businesses, we also collect information through cookies and
           similar technologies. You can find out more about this in our Cookie
           Notice:{" "}
-          <a
-            href="https://www.teamheroproject/cookies"
-            className="text-blue-500"
-          >
+          <a href="#" className="text-blue-500">
             https://www.teamheroproject/cookies
           </a>
           .
@@ -677,10 +674,7 @@ export default function PrivacyPolicy() {
         <p className=" text-secondary mb-4 font-sfpro-regular">
           Specific information about how we use such technologies and how you
           can refuse certain cookies is set out in our Cookie Notice:{" "}
-          <a
-            href="https://www.teamheroproject/cookies"
-            className="text-blue-500"
-          >
+          <a href="#" className="text-blue-500">
             https://www.teamheroproject/cookies
           </a>
           .
@@ -859,10 +853,7 @@ export default function PrivacyPolicy() {
           this could affect certain features or services of our Services. You
           may also opt out of interest-based advertising by advertisers on our
           Services. For further information, please see our Cookie Notice:{" "}
-          <a
-            href="https://www.teamheroproject/cookies"
-            className="text-blue-500"
-          >
+          <a href="#" className="text-blue-500">
             https://www.teamheroproject/cookies
           </a>
           .

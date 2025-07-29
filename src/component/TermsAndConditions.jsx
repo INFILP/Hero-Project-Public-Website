@@ -27,7 +27,7 @@ export default function TermsOfService() {
           friends and family caring for a loved one.
         </p>
         <p className="text-secondary mb-4 font-sfpro-regular">
-          You can contact us by phone at (+1)3038867992, email at
+          You can contact us by phone at +1 (213) 419-0579, email at
           support@teamheroproject.com, or by mail to 1905 15th Street, #670,
           Boulder, CO 80306, United States.
         </p>
@@ -1309,7 +1309,7 @@ export default function TermsOfService() {
           >
             support@teamheroproject.com
           </a>{" "}
-          or call at (+1)3038867992.
+          or call at +1 (213) 419-0579.
         </p>
 
         {/* Section 26 */}
@@ -1371,7 +1371,7 @@ export default function TermsOfService() {
           <br />
           United States
           <br />
-          Phone: (+1)3038867992
+          Phone: +1 (213) 419-0579
           <br />
           <a
             href="mailto:support@teamheroproject.com"
