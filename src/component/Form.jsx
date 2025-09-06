@@ -20,7 +20,7 @@ const Form = () => {
   };
 
   return (
-    <div className="bg-[#F8F8F8] py-10 px-4 sm:px-8 lg:px-8">
+    <div className="bg-[#F8F8F8] pt-20 pb-40 px-4 sm:px-8 lg:px-8 -mb-40">
       <div className="max-w-7xl mx-auto flex flex-col lg:flex-row gap-12 items-center justify-between">
         {/* Left Content */}
         <div className="max-w-lg">

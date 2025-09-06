@@ -24,12 +24,12 @@ const Hero = () => {
         <div className="flex items-center justify-center lg:max-w-[412px] xl:max-w-lg mx-auto">
           <div className="max-w-4xl text-center lg:text-left my-4 lg:my-0">
             <h2 className="text-4xl md:text-3xl lg:text-4xl xl:text-6xl font-sfpro-medium text-prime mb-2 leading-tight">
-              Where <span className="text-gradient-custom"> Care </span>
-              Becomes a Team Effort.
+              Become Crystal Clear About Your{" "}
+              <span className="text-gradient-custom">Hero's Care </span>
             </h2>
             <p className=" md:text-lg xl:text-2xl text-subtext mb-6 leading-relaxed font-sfpro-regular">
-              Empowering families and caregivers to act as one - organized,
-              supportive & present.
+              An app that provides visibility into the support activities of
+              friends and families caring for a loved one (the Hero).
             </p>
             <a
               href="#banner"
