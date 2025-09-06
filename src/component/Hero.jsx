@@ -20,8 +20,8 @@ const Hero = () => {
         <div className="absolute inset-0 bg-[linear-gradient(to_right,#80808012_1px,transparent_1px),linear-gradient(to_bottom,#80808012_1px,transparent_1px)] bg-[size:64px_64px] rotate-[0deg] origin-center scale-200"></div>
         <div className="absolute inset-0 bg-gradient-to-b from-white/70 via-white/30 to-white/90"></div>
       </div>
-      <div className="relative z-10 flex lg:flex-row flex-col items-center justify-center w-full lg:max-w-[60rem] xl:max-w-[1270px] mx-auto px-4 lg:px-0">
-        <div className="flex items-center justify-center lg:max-w-[412px] xl:max-w-lg mx-auto">
+      <div className="relative z-10 flex lg:flex-row flex-col items-center justify-center w-full lg:max-w-[60rem] xl:max-w-[1270px] mx-auto ">
+        <div className="flex items-center justify-center lg:max-w-[412px] xl:max-w-lg mx-auto px-4 lg:px-0">
           <div className="max-w-4xl text-center lg:text-left my-4 lg:my-0">
             <h2 className="text-4xl md:text-3xl lg:text-4xl xl:text-6xl font-sfpro-medium text-prime mb-2 leading-tight">
               Become Crystal Clear About Your{" "}

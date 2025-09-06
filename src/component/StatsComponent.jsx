@@ -34,13 +34,13 @@ const StatsComponent = () => {
 
   return (
     <div className="sm:px-4 py-10 md:py-8 flex flex-col">
-      <div className="flex items-end gap-2 xs:gap-6">
-        <div className="rounded-4xl bg-[#FFEEEC] w-[140px] xs:w-[178px] sm:w-[220px] sm:h-[160px] lg:w-[220px] xl:w-[278px] h-[123px] lg:h-[160px] xl:h-[201px] flex flex-col justify-between">
+      <div className="flex items-end gap-4 xs:gap-4">
+        <div className="rounded-4xl bg-[#FFEEEC] w-[170px] xs:w-[190px] sm:w-[220px] sm:h-[160px] lg:w-[220px] xl:w-[278px] h-[123px] lg:h-[160px] xl:h-[201px] flex flex-col justify-between">
           <div className="px-4 pt-4 sm:px-6 sm:pt-6">
-            <p className="text-prime text-base lg:text-xl xl:text-3xl font-sfpro-medium">
+            <p className="text-prime text-base lg:text-xl xl:text-[24px] font-sfpro-medium">
               Care <span className="text-[#FF897B]">Together</span>
             </p>
-            <p className="text-prime text-xs sm:text-sm xl:text-xl font-sfpro-regular mt-1">
+            <p className="text-prime text-xs sm:text-sm xl:text-lg font-sfpro-regular mt-1">
               Do something to <span className="font-sfpro-bold">help</span> your
               Hero
             </p>
@@ -57,10 +57,10 @@ const StatsComponent = () => {
         </div>
 
         {/* Mobile Image */}
-        <div className="flex items-center justify-center inset-x-0 overflow-hidden w-[140px] xs:w-[178px] sm:w-[250px] lg:w-[260px] xl:w-[320px] h-36 sm:h-52 lg:h-64 xl:h-80">
+        <div className="flex items-center justify-center inset-x-0 overflow-hidden w-[170px] xs:w-[190px] sm:w-[250px] lg:w-[260px] xl:w-[320px] h-44 sm:h-52 lg:h-64 xl:h-80">
           <div className="relative">
             <div
-              className="absolute bottom-0 -left-1/4 transform translate-x-1/4 xl:translate-x-1/5 w-[140px] xs:w-[178px] sm:w-[250px] lg:w-[260px] xl:w-[320px] h-[170px] xs:h-[205px] sm:h-[280px] xl:h-[350px] rounded-tl-4xl -z-10"
+              className="absolute bottom-0 -left-1/4 transform translate-x-1/4 xl:translate-x-1/5 w-[170px] xs:w-[190px] sm:w-[250px] lg:w-[260px] xl:w-[320px] h-[180px] xs:h-[215px] sm:h-[280px] xl:h-[350px] rounded-tl-4xl -z-10"
               style={{
                 background:
                   "linear-gradient(135deg, rgba(77, 163, 174, 1) 0%, rgba(113, 181, 190, 1) 100%)",
@@ -73,20 +73,20 @@ const StatsComponent = () => {
               height={0}
               sizes="100vw"
               priority
-              className="w-[10.5rem] xs:w-[18.5rem] h-auto object-contain relative left-2 -bottom-12 xs:-bottom-20 sm:-bottom-30 z-10"
+              className="w-[10.5rem] xs:w-[18.5rem] h-auto object-contain relative left-2 -bottom-16 xs:-bottom-20 sm:-bottom-30 z-10"
             />
           </div>
         </div>
       </div>
 
-      <div className="flex items-start justify-between mt-4 sm:mt-6 gap-2 xs:gap-6">
+      <div className="flex items-start justify-between mt-4 sm:mt-6 gap-4 xs:gap-4">
         {/* Bottom Left Card */}
-        <div className="rounded-b-4xl rounded-tl-4xl bg-[#F4F2FF] w-[140px] xs:w-[178px] sm:w-[220px] sm:h-[160px] lg:w-[220px] xl:w-[278px] h-[123px] lg:h-[160px] xl:h-[201px] flex flex-col justify-between">
+        <div className="rounded-b-4xl rounded-tl-4xl bg-[#F4F2FF] w-[170px] xs:w-[190px] sm:w-[220px] sm:h-[160px] lg:w-[220px] xl:w-[278px] h-[153px] lg:h-[160px] xl:h-[211px] flex flex-col justify-between">
           <div className="px-3 pt-4 sm:p-6">
-            <p className="text-base lg:text-xl xl:text-3xl font-sfpro-medium">
+            <p className="text-base lg:text-xl xl:text-[24px] font-sfpro-medium">
               Inspire <span className="text-[#A096FF]">Together</span>
             </p>
-            <p className="text-prime text-sm sm:text-sm xl:text-xl font-sfpro-regular mt-1">
+            <p className="text-prime text-sm sm:text-sm xl:text-lg font-sfpro-regular mt-1">
               Track activity on the{" "}
               <span className=" font-sfpro-bold">Event Board</span> and inspire
               your team
@@ -104,10 +104,10 @@ const StatsComponent = () => {
         </div>
 
         {/* Bottom Right Card */}
-        <div className="rounded-b-4xl rounded-tr-4xl bg-[#2B2B2B] w-[140px] xs:w-[178px] h-[133px] sm:w-[259px] xl:w-[328px] sm:h-[180px] xl:h-[228px] flex flex-col justify-between">
+        <div className="rounded-b-4xl rounded-tr-4xl bg-[#2B2B2B] w-[170px] xs:w-[190px] h-[200px] xs:h-[183px] sm:w-[259px] xl:w-[328px] sm:h-[180px] xl:h-[228px] flex flex-col justify-between">
           <div className="px-3 pt-4 sm:p-6 overflow-hidden">
-            <p className="text-white text-base lg:text-xl xl:text-3xl font-sfpro-medium">
-              <span className="text-[#7C7C7C]">Lets </span> Connect
+            <p className="text-white text-base lg:text-xl xl:text-[24px] font-sfpro-medium">
+              But Wait There's <span className="text-[#7C7C7C]">More! </span>
             </p>
 
             <div className="mt-1 relative overflow-hidden">
@@ -123,7 +123,7 @@ const StatsComponent = () => {
                         : "opacity-0 translate-y-full"
                     }`}
                   >
-                    <p className="text-white text-sm sm:text-sm xl:text-xl font-sfpro-regular leading-tight">
+                    <p className="text-white text-sm sm:text-sm xl:text-lg font-sfpro-regular leading-tight">
                       {item.text}
                       <span className="font-sfpro-bold">{item.boldText}</span>
                       {item.afterBold && item.afterBold}
