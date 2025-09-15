@@ -1,10 +1,10 @@
-"use client";
-import Image from "next/image";
-import { useState, useEffect } from "react";
-import React from "react";
+"use client"
+import Image from "next/image"
+import { useState, useEffect } from "react"
+import React from "react"
 
 const StatsComponent = () => {
-  const [currentIndex, setCurrentIndex] = useState(0);
+  const [currentIndex, setCurrentIndex] = useState(0)
   const carouselTexts = [
     {
       id: 1,
@@ -20,17 +20,18 @@ const StatsComponent = () => {
       id: 3,
       text: "We All Need Connection - Let ",
       boldText: "team members know",
-      afterBold: " if you'd like more info on a care activity",
+      afterBold:
+        " if you'd like more info on a care activity through Let's Connect",
     },
-  ];
+  ]
 
   useEffect(() => {
     const interval = setInterval(() => {
-      setCurrentIndex((prevIndex) => (prevIndex + 1) % carouselTexts.length);
-    }, 4000);
+      setCurrentIndex((prevIndex) => (prevIndex + 1) % carouselTexts.length)
+    }, 4000)
 
-    return () => clearInterval(interval);
-  }, []);
+    return () => clearInterval(interval)
+  }, [])
 
   return (
     <div className="sm:px-4 py-10 md:py-8 flex flex-col">
@@ -41,8 +42,8 @@ const StatsComponent = () => {
               Care <span className="text-[#FF897B]">Together</span>
             </p>
             <p className="text-prime text-xs sm:text-sm xl:text-lg font-sfpro-regular mt-1">
-              Do something to <span className="font-sfpro-bold">help</span> your
-              Hero
+              First, do something to{" "}
+              <span className="font-sfpro-bold">help</span> your Hero
             </p>
           </div>
           <div className="ml-auto w-7 h-7 sm:w-8 sm:h-8 xl:w-12 xl:h-12 relative right-3 bottom-3">
@@ -87,7 +88,7 @@ const StatsComponent = () => {
               Inspire <span className="text-[#A096FF]">Together</span>
             </p>
             <p className="text-prime text-sm sm:text-sm xl:text-lg font-sfpro-regular mt-1">
-              Track activity on the{" "}
+              Then share and track activity on the{" "}
               <span className=" font-sfpro-bold">Event Board</span> and inspire
               your team
             </p>
@@ -107,7 +108,7 @@ const StatsComponent = () => {
         <div className="rounded-b-4xl rounded-tr-4xl bg-[#2B2B2B] w-[170px] xs:w-[190px] h-[200px] xs:h-[183px] sm:w-[259px] xl:w-[328px] sm:h-[180px] xl:h-[228px] flex flex-col justify-between">
           <div className="px-3 pt-4 sm:p-6 overflow-hidden">
             <p className="text-white text-base lg:text-xl xl:text-[24px] font-sfpro-medium">
-              But Wait There's <span className="text-[#7C7C7C]">More! </span>
+              <span className="text-[#A2A2A2]">But Wait,</span> There's More!
             </p>
 
             <div className="mt-1 relative overflow-hidden">
@@ -154,7 +155,7 @@ const StatsComponent = () => {
         </div>
       </div>
     </div>
-  );
-};
+  )
+}
 
-export default StatsComponent;
+export default StatsComponent
