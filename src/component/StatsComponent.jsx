@@ -67,6 +67,7 @@ const StatsComponent = () => {
                   "linear-gradient(135deg, rgba(77, 163, 174, 1) 0%, rgba(113, 181, 190, 1) 100%)",
               }}
             ></div>
+
             <Image
               src="/images/gifSimmulator.gif"
               alt="Mobile UI"
